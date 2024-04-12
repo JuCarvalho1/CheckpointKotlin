@@ -7,15 +7,15 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-// é um tipo de layout que permite posicionar e dimensionar widgets de forma flexível e 
-eficiente, através de restrições relativas entre elementos na interface.
+<!-- é um tipo de layout que permite posicionar e dimensionar widgets de forma flexível e 
+eficiente, através de restrições relativas entre elementos na interface.  -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
-// Mexe na largura do elemento.
-// match_parent ocupa todo o espaço do seu elemento pai.
+<!-- Mexe na largura do elemento.
+match_parent ocupa todo o espaço do seu elemento pai.-->
         android:layout_width="match_parent"
-// Mexe na altura do elemento.
-// wrap_content ocupa exatamente o conteúdo do componente, sem espaço extra.
+<!-- Mexe na altura do elemento.
+// wrap_content ocupa exatamente o conteúdo do componente, sem espaço extra.-->
 
         android:layout_height="wrap_content"
         tools:context=".ui.activity.FormularioProdutoActivity">
@@ -27,11 +27,11 @@ eficiente, através de restrições relativas entre elementos na interface.
             android:layout_margin="16dp"
             android:hint="Nome"
             android:inputType="text"
-// Define que o lado direito do componente deve ser alinhado com o lado direito do seu elemento pai.
+<!-- Define que o lado direito do componente deve ser alinhado com o lado direito do seu elemento pai.--> 
             app:layout_constraintEnd_toEndOf="parent"
-// Especifica que o lado esquerdo do componente deve ser alinhado com o lado esquerdo do seu elemento pai. 
+<!-- Especifica que o lado esquerdo do componente deve ser alinhado com o lado esquerdo do seu elemento pai. -->
             app:layout_constraintStart_toStartOf="parent"
-// Faz com que o topo do componente seja alinhado com o topo do seu elemento pai.
+<!-- Faz com que o topo do componente seja alinhado com o topo do seu elemento pai. -->
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
