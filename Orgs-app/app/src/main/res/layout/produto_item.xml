@@ -5,8 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-// é um componente de interface do Android usado para exibir texto para o usuário. Ele pode ser personalizado.
-// View - Qualquer objeto que esteja dentro de uma activity, exemplo uma caixa de texto.
+<!-- é um componente de interface do Android usado para exibir texto para o usuário. Ele pode ser personalizado.
+     View - Qualquer objeto que esteja dentro de uma activity, exemplo uma caixa de texto. -->
     <TextView
         android:id="@+id/nome"
         android:layout_width="0dp"
