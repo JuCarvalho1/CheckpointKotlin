@@ -25,6 +25,7 @@ MeuAppDeProdutos é uma aplicação desenvolvida em Kotlin para Android que perm
 ## 👨‍💻 Desenvolvedor
 
 Este aplicativo foi desenvolvido por:
+**EQUIPE ADAPTER**
 Eloisa Araujo (94604) 
 Julia Carvalho (96106) 
 Leonardo Minniti (76172) 
